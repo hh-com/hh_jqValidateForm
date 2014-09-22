@@ -1,11 +1,10 @@
 <?php
-
 /**
- * 
- * @package ect_responsive
- * Copyright (C) 2014 Harald Huber
- * http://www.harald-huber.com
- *
+*
+* @package hh_jqValidateForm
+* Copyright (C) 2014 Harald Huber
+* http://www.harald-huber.com
+*
 */
 
 class ValidateForm extends Frontend 
@@ -19,20 +18,18 @@ class ValidateForm extends Frontend
             {	
                 if (version_compare(VERSION, '3', '>='))
                 {
-                        $GLOBALS['TL_JAVASCRIPT'][] = TL_PATH.'/system/modules/hh_jqValidateForm/assets/js/validatr.js||static';
+                    $GLOBALS['TL_JAVASCRIPT'][] = TL_PATH.'/system/modules/hh_jqValidateForm/assets/js/validatr.js||static';
                 }
                 else
                 {
-                        $GLOBALS['TL_JAVASCRIPT'][] = TL_PATH.'/system/modules/hh_jqValidateForm/assets/js/validatr.js';
+                    $GLOBALS['TL_JAVASCRIPT'][] = TL_PATH.'/system/modules/hh_jqValidateForm/assets/js/validatr.js';
                 }
 
                 $GLOBALS['TL_HEAD'][] = '
                 <script type="text/javascript">
-
                         $(document).ready(function() {
                                 $("form").validatr();
                         });
-
                 </script>';
             }
         }
