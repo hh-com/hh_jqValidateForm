@@ -1,7 +1,7 @@
 hh_jqValidateForm
 =================
 
-Contao Form Validator with validatr
+Contao Form Validator with validatr (jQuery Plugin) 
 
 
 jQuery Validator for Contao with http://jaymorrow.github.io/validatr/

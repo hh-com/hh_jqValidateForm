@@ -14,6 +14,7 @@ class ValidateForm extends Frontend
     {
         if (TL_MODE == 'FE')
         {
+            // Include File/Script only if Site contains form
             if ($objModel->type == "form")
             {	
                 if (version_compare(VERSION, '3', '>='))
