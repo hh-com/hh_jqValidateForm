@@ -11,6 +11,6 @@ Validation based on the value in field input type.
 
 Contao Repository: https://contao.org/de/extension-list/view/hh_jqValidateForm.10000013.de.html
 
-Copyright (C) 2014 Harald Huber
-http://www.harald-huber.com
-Lizenz	LGPL
+Copyright (C) 2014 Harald Huber<br>
+http://www.harald-huber.com<br>
+Lizenz	LGPL<br>
